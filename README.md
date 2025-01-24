@@ -22,12 +22,14 @@ This project is a real-time, interactive solar system simulation built using **C
 ## Installation
 
 1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/SolarSystemSimulation.git
+   `git clone https://github.com/yourusername/SolarSystemSimulation.git`
+
 2. **Open the Project**:
-   **- Open the project in Visual Studio.
-3. **Run the application**:
-   **Press F5 or click Start in Visual Studio to launch the simulation.
+   - Open the project in **Visual Studio**.
+
+3. **Run the Application**:
+   - Press `F5` or click **Start** in Visual Studio to launch the simulation.
+
 
 ## How It Works
 
