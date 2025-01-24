@@ -24,3 +24,22 @@ This project is a real-time, interactive solar system simulation built using **C
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/SolarSystemSimulation.git
+2. **Open the Project**:
+   **- Open the project in Visual Studio.
+3. **Run the application**:
+   **Press F5 or click Start in Visual Studio to launch the simulation.
+
+## How It Works
+
+- The simulation starts with a Sun and two planets, Earth and Mars, initialized in orbit.
+- Each planet is represented by a circle (Ellipse) and moves in an elliptical orbit around the Sun.
+- The time scale can be adjusted via a slider to simulate real-time orbital motion or speed up the simulation.
+- Planets are clickable, showing additional information when selected.
+
+## Future Improvements
+
+- **Enhanced Visuals**: Plan to improve the visuals by adding 3D graphics, textures, and more accurate representations of planets.
+- **More Celestial Bodies**: Plan to add more planets, moons, and perhaps other solar systems.
+- **Realistic Physics**: Implement more realistic orbital mechanics, including gravitational forces from other planets and effects like eccentric orbits.
+- **User Interface**: Enhance the UI with additional information and controls for a better user experience.
+
