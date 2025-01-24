@@ -1,0 +1,29 @@
+﻿<Window x:Class="SolarSystemSimulation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SolarSystemSimulation"
+        mc:Ignorable="d"
+        Title="Solar System Simulation" Height="450" Width="800">
+    <!-- Use a single container: Grid -->
+    <Grid>
+        <!-- Create a row definition to divide the screen into 2 parts -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Canvas for Solar System -->
+        <Canvas Name="SolarSystemCanvas" Background="Black" Grid.Row="0">
+            <Ellipse Width="50" Height="50" Fill="Yellow" Canvas.Left="375" Canvas.Top="200"/>
+        </Canvas>
+
+        <!-- Slider and TextBlock for Time Scale Control -->
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10" Grid.Row="1">
+            <Slider x:Name="TimeScaleSlider" Minimum="100000" Maximum="100000000" Value="50000000" Width="200"/>
+
+            <TextBlock Text="{Binding ElementName=TimeScaleSlider, Path=Value}" Margin="10,0,0,0" Foreground="White"/>
+        </StackPanel>
+    </Grid>
+</Window>
